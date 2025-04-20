@@ -1,17 +1,22 @@
 {
   "name": "app-purchase-notifications",
   "version": "1.0.0",
+  "description": "App Store Server Notifications V2 handler",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "node-telegram-bot-api": "^0.66.0"
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4",
+    "dotenv": "^16.4.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
