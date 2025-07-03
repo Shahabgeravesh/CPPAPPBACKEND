@@ -1,10 +1,4 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a//dev/null b/README.md
-index 0000000000000000000000000000000000000000..012440711ccb700c0b0b34f07d3a2503e8f9c82a 100644
---- a//dev/null
-+++ b/README.md
-@@ -0,0 +1,57 @@
-+# App Purchase Notifications Backend
+App Purchase Notifications Backend
 +
 +This repository contains a small Express server that receives
 +[App Store Server Notifications](https://developer.apple.com/documentation/appstoreservernotifications)
