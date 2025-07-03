@@ -22,7 +22,7 @@ index 0000000000000000000000000000000000000000..012440711ccb700c0b0b34f07d3a2503
 +- **Simple JWT check** – the example only decodes the token. In a
 +  production setup you would verify the signature against Apple’s public
 +  key.
-+
+
 +## Getting started
 +
 +1. Install dependencies:
